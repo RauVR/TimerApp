@@ -16,7 +16,7 @@ Presionando el boton "Timer" nos llevara a la siguiente pantalla
 
 ## Funcionalidad de Timer
 
-En esta pantalla el teledono proporciona 3 botones para iniciar, detener y reiniciar el cronometro
+En esta pantalla el telefono proporciona 3 botones para iniciar, detener y reiniciar el cronometro
 
 ![img03.jpg](src/img03.jpg)
 
