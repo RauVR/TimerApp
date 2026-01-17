@@ -1,16 +1,23 @@
-# timerapp
+# Timer App
 
-Manage time project
+Esta aplicacion tiene 2 funcionalidades
 
-## Getting Started
+## Funcionalidad de Hora
 
-This project is a starting point for a Flutter application.
+La aplicacion muestra en formato de 12hrs la hora actual
 
-A few resources to get you started if this is your first Flutter project:
+![img01.jpg](src/img01.jpg)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+En el caso que el telefono este cargando mostrara el icono y el porcentaje de carga
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![img02.jpg](src/img02.jpg)
+
+Presionando el boton "Timer" nos llevara a la siguiente pantalla
+
+## Funcionalidad de Timer
+
+En esta pantalla el teledono proporciona 3 botones para iniciar, detener y reiniciar el cronometro
+
+![img03.jpg](src/img03.jpg)
+
+
