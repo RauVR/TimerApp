@@ -35,14 +35,15 @@ class _MyTimerState extends State<MyTimer> {
 
   void startTimer() {
 
-    const duration = Duration(milliseconds: 10);
+    const duration = Duration(seconds: 1);
     _timer = Timer.periodic(duration, (Timer timer) {
       setState(() {
-        _milliseconds += 10;
-        if (_milliseconds >= 1000) {
-          _milliseconds = 0;
-          _seconds++;
-        }
+        _seconds+=1;
+        // _milliseconds += 10;
+        // if (_milliseconds >= 1000) {
+        //   _milliseconds = 0;
+        //   _seconds++;
+        // }
         if (_seconds >= 60) {
           _seconds = 0;
           _minutes++;
